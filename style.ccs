@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: #fef6e4;
+  color: #333;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+#envelope {
+  cursor: pointer;
+  font-size: 4rem;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+#letter {
+  background: white;
+  border: 2px solid #ccc;
+  padding: 30px;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
